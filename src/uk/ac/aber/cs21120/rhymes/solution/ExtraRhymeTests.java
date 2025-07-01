@@ -15,10 +15,12 @@ import uk.ac.aber.cs21120.rhymes.tests.DictionaryTests;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 /**
  * This class tests the rhyming parts of the assignment: Pronunciation.rhymesWith() first,
- * and then Dictionary.getRhymes().
+ * and then Dictionary.getRhymes() to supplement those provided by
+ * Aberystwyth University
+ *
+ * @author Beck Chamberlain
  */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ExtraRhymeTests {

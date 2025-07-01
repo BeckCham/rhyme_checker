@@ -4,10 +4,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 import java.util.Scanner;
-
 /**
- * The interface to the dictionary of words and their pronunciations.
+ * A class that implements the dictionary interface. It creates a  hash map which
+ * acts as a dictionary of words and their pronunciations, it is created from the
+ * CMU pronouncing dictionary. This dictionary can be used to find the rhymes for
+ * each word.
+ *
+ * @author Beck Chamberlain
  */
+
 public class Dictionary implements IDictionary {
     Map<String, IWord> dictionary;
     int numberOfPronunciations;
@@ -179,6 +184,6 @@ public class Dictionary implements IDictionary {
             }
 
         }
-        return wordsThatRhyme; //Return the words that Rhyme set.
+        return wordsThatRhyme; //Return the words that Rhyme in a set.
     }
 }

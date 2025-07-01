@@ -9,7 +9,12 @@ import uk.ac.aber.cs21120.rhymes.interfaces.IWord;
 import uk.ac.aber.cs21120.rhymes.solution.Phoneme;
 import uk.ac.aber.cs21120.rhymes.solution.Pronunciation;
 import uk.ac.aber.cs21120.rhymes.solution.Word;
-
+/**
+ * Additional tests for the Word class to supplement those provided by
+ * Aberystwyth University
+ *
+ * @author Beck Chamberlain
+ */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ExtraWordTests {
     /**

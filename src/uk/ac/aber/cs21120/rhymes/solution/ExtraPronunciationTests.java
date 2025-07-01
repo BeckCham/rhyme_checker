@@ -10,7 +10,12 @@ import uk.ac.aber.cs21120.rhymes.interfaces.IPronunciation;
 import uk.ac.aber.cs21120.rhymes.solution.Phoneme;
 import uk.ac.aber.cs21120.rhymes.solution.Pronunciation;
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * Additional tests for the Pronunciation class to supplement those provided by
+ * Aberystwyth University
+ *
+ * @author Beck Chamberlain
+ */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ExtraPronunciationTests {
     /**

@@ -5,7 +5,12 @@ import static org.junit.jupiter.api.Assertions.*;
 import uk.ac.aber.cs21120.rhymes.interfaces.Arpabet;
 import uk.ac.aber.cs21120.rhymes.interfaces.IPhoneme;
 import uk.ac.aber.cs21120.rhymes.solution.Phoneme;
-
+/**
+ * Extra tests for the Phoneme class to supplement those provided by
+ * Aberystwyth University
+ *
+ * @author Beck Chamberlain
+ */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ExtraPhonemeTests {
     /**

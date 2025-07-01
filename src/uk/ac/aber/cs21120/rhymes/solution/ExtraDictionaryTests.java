@@ -11,7 +11,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * Extra tests for the dictionary class to supplement those provided by
+ * Aberystwyth University
+ *
+ * @author Beck Chamberlain
+ */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ExtraDictionaryTests {
     /**
